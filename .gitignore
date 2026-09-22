@@ -1,0 +1,19 @@
+# --- macOS ---
+.DS_Store
+
+# --- Secrets / local overrides ---
+.env
+.env.local
+
+# --- Dependencies (this project is build-step free, but keep these out anyway) ---
+vendor/
+node_modules/
+
+# --- Logs & caches ---
+*.log
+cache/
+
+# --- Editor noise ---
+.vscode/
+.idea/
+*.swp
